@@ -1,0 +1,22 @@
+@import "mixin";
+.container {
+  max-width: 120rem;
+  margin: 8rem auto;
+  background-color: var(--color-white);
+  box-shadow: --shadow-dark;
+  min-height: 70rem;
+  @include border-radius(10px);
+}
+.header {
+  font-size: 1.2rem;
+
+  display: flex;
+}
+.middle {
+  display: flex;
+  justify-content: space-between;
+}
+.footer {
+  margin-left: 10rem;
+  display: flex;
+}
